@@ -1,0 +1,6 @@
+.git
+.github
+build
+mini-cc
+*.o
+*.s
