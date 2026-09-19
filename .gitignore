@@ -1,0 +1,5 @@
+mini-cc
+build/
+*.o
+*.s
+.DS_Store
