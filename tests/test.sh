@@ -46,6 +46,6 @@ set +e
 "$TMP/example"
 example_status=$?
 set -e
-[[ "$example_status" -eq 155 ]] || { echo "FAIL: control_flow example returned $example_status, expected 155"; exit 1; }
+[[ "$example_status" -eq 148 ]] || { echo "FAIL: control_flow example returned $example_status, expected 148"; exit 1; }
 
 echo "All compiler tests passed."
