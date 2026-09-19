@@ -11,7 +11,7 @@ $(TARGET): src/main.c
 	$(CC) $(CFLAGS) $< -o $@
 
 test: $(TARGET)
-	./tests/test.sh
+	bash tests/test.sh
 
 examples: $(TARGET)
 	@mkdir -p build
